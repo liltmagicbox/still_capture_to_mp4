@@ -59,9 +59,9 @@ def capandsave_compare():
         while str(nos)+'.jpg' in files:
             nos += 1
             #print(nos)
-        saveas="{}{}".format(nos,'.jpg')
+        saveas="{}{}".format(nos,'.jpg',quality=95)
         oldimg=img
-        img.save(saveas)
+        img.save(saveas,)
         return 1
     
         

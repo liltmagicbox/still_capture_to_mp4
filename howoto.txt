@@ -1,0 +1,2 @@
+.\ffmpeg -i %d.jpg  -c:v libx264 -b:v 6000k  test.mp4
+그냥이걸로 ㄱ
